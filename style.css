@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #f4f4f4, #f32786); 
+    height: 100vh;
+    width: 100%;
+  }
+  svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+}
+
+a img.icon {
+    display: inline-block;
+    height: 1em;
+    margin: 0 0 -0.1em 0.3em;
+}
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+
+    padding: 40px;
+    box-shadow: 0 20px  50px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+
+    border: 3px dashed grey;
+    margin-bottom: 20px;
+  }
+  .info{
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 400;
+
+    color: aliceblue;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  h1 {
+    color: #ffffff;
+    font-size: 36px;
+    font-family: cursive;
+
+    font-weight: 600;
+    text-decoration: underline rgb(239, 22, 127);
+  }
+  
+  button {
+
+    background-color: #31c0f4;
+    border: none;
+    padding: 10px 20px;
+
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    border-radius: 8px;
+    border: 3px dashed grey;
+    transition: 0.3s all ease;
+
+  }
+  
+  button:hover
+   {
+    background-color: #1fe2e2;
+    transform: translateY(-10px);
+  }
+  
+  #notesContainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .note {
+    background: #ffeb3b;
+    width: 200px;
+    height: 200px;
+
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    position: relative;
+
+    cursor: grab;
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.3s all ease;
+    
+  }
+  .note:hover{
+
+    transform: scale(1.1);
+  }
+  
+  .note textarea {
+    width: 100%;
+    height: 70%;
+    border: none;
+    background: none;
+
+    resize: none;
+    font-size: 14px;
+  }
+  
+  .note p{
+
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: cursive;
+  }
+  .note textarea:focus {
+    outline: none;
+  }
+  
+  .note .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .deleteBtn, .colorBtn {
+    background: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+  }
+  
+  .deleteBtn:hover 
+  {
+    background: darkred;
+  }
+  
+  .colorBtn:hover {
+    background: #c2185b;
+  }
+  
+  .credit{
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 500;
+  }
