@@ -1,4 +1,6 @@
 # smart-sticky-notes.github.io
+
+Disclaimer: Made with the help of Tutorials and i changed the user interface and add some my own features and also take help of AI to solve some error. 
  
  This project is a Web application for creating, updating , deleting, and changing the color of sticky notes using HTML , CSS and Javascript. The application uses Local Storage to save the notes, allowing users to keep their sticky notes even after refreshing the page.
 
